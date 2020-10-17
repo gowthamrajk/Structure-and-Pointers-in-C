@@ -36,5 +36,5 @@ int main()
 {
     Date date1={2,5,1013};
     Date date2={2,6,2013};
-    printf("%d",difference_in_dates(date1,date2));
+    printf("%d",difference_in_dates(&date1,&date2));
 }
